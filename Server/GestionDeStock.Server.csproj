@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\BDGestionDeStock\BDGestionDeStock.csproj" />
     <ProjectReference Include="..\Client\GestionDeStock.Client.csproj" />
     <ProjectReference Include="..\Shared\GestionDeStock.Shared.csproj" />
   </ItemGroup>
