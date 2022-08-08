@@ -13,7 +13,9 @@ builder.Services.AddDbContext<BDContext1>(opciones => opciones.UseSqlServer(conn
 
 var app = builder.Build();
 
-//
+/// <summary>
+/// /
+/// </summary>
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
